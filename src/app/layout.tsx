@@ -8,9 +8,9 @@ import Swiper from "@/components/Hero/Swiper";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Aflux® - przyszłość jest dziś",
+  title: "Idún - Cosmética natural y sin tóxicos",
   description:
-    "Krem do ciała poprawiający jędrność i sprężystość skóry, wygładzający pory i nadający skórze świetlisty blask.",
+    "Sin químicos, sin sulfatos, sin petrolatos, zero waste y con respeto animal.",
 };
 
 export default function RootLayout({

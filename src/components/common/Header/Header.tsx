@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { HEADER_LINKS } from "@/constants/header-links";
 import Link from "next/link";
-import logo from "@/images/aflux-logo.png";
+import logo from "@/images/idun-logo.png";
 
 const Header: React.FC = () => {
   const [openMenu, setOpenMenu] = useState<boolean>(false);
@@ -27,7 +27,7 @@ const Header: React.FC = () => {
         <div className="w-[80px] bg-white">
           <a
             className="inline-flex bg-white p-2 px-4 rounded-lg"
-            href="https://goldipl.github.io/aflux-next/"
+            href="https://franciscolodev.com"
           >
             <img src={logo.src} alt="logo" width={48} />
           </a>
@@ -49,7 +49,7 @@ const Header: React.FC = () => {
             }`}
           >
             <svg
-              className="h-8 w-8 text-green-800"
+              className="h-8 w-8 text-[#]"
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
@@ -67,7 +67,7 @@ const Header: React.FC = () => {
           >
             {HEADER_LINKS.map((link) => (
               <Link
-                className="p-4 uppercase text-green-800 hover:text-green-600 select-none"
+                className="p-4 uppercase text-[#5b6f38] hover:text-[#b07441] select-none"
                 href={link.href}
                 key={link.key}
               >
@@ -95,7 +95,7 @@ const Header: React.FC = () => {
           <div>
             {HEADER_LINKS.map((link) => (
               <Link
-                className="p-4 uppercase text-green-800 hover:text-green-400"
+                className="p-4 uppercase text-[#5b6f38] hover:text-[#b07441]"
                 href={link.href}
                 key={link.key}
               >

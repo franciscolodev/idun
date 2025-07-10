@@ -13,49 +13,37 @@ const TextSection = () => {
       />
       <div className="absolute mx-8 top-1/2 left-0 lg:left-[10vw] translate-y-[-50%] text-white">
         <h1
-          className="text-3xl font-bold w-full lg:w-96 mb-4"
+          className="px-2 rounded bg-black/70 text-3xl font-bold w-full lg:w-96 mb-4"
           data-aos="fade-up"
         >
-          Jakie korzyści przynosi Aflux®
+          ¿Cuáles son los beneficios de Idún?
         </h1>
-        <p
-          className="text-sm lg:text-lg font-extralight w-full lg:w-1/3 mb-4"
-          data-aos="fade-up"
-        >
-          Aflux® to wysokiej jakości krem do rąk stworzony z myślą o intensywnej
-          pielęgnacji suchej i zniszczonej skóry dłoni.
-        </p>
-        <p
-          className="text-sm lg:text-lg font-extralight w-full lg:w-1/3 mb-4"
-          data-aos="fade-up"
-        >
-          Jego unikalna formuła zawiera składniki odżywcze i nawilżające, takie
-          jak masło shea, witamina E i ekstrakty roślinne, które głęboko
-          penetrują skórę, przywracając jej miękkość i elastyczność.
-        </p>
+        
         <ul className="my-4 pl-4" data-aos="fade-up">
-          <li
-            className="text-white font-extralight text-sm lg:text-lg relative my-2 before:inline-block before:mb-[2px] lg:before:mb-0 before:w-2 before:h-2 lg:before:w-3 lg:before:h-3 before:mr-3 lg:before:mr-4 before:bg-green-500 before:rounded-full before:border before:border-green-600 w-full lg:w-1/3"
+            <li
+            className="px-2 rounded bg-black/70 text-white font-extralight text-sm lg:text-lg relative my-2 before:inline-block before:mb-[2px] lg:before:mb-0 before:w-2 before:h-2 lg:before:w-3 lg:before:h-3 before:mr-3 lg:before:mr-4 before:bg-green-500 before:rounded-full before:border before:border-green-600 w-full lg:w-1/3"
             data-aos="fade-up"
           >
-            Intensywne nawilżenie: Krem Aflux głęboko nawilża suchą skórę dłoni,
-            przywracając jej miękkość i elastyczność.
+            Los productos de Idún son de alta calidad, elaborados artesanalmente para el cuidado intensivo de la piel.
           </li>
           <li
-            className="text-white font-extralight text-sm lg:text-lg relative my-2 before:inline-block before:mb-[2px] lg:before:mb-0 before:w-2 before:h-2 lg:before:w-3 lg:before:h-3 before:mr-3 lg:before:mr-4 before:bg-green-500 before:rounded-full before:border before:border-green-600 w-full lg:w-1/3"
+            className="px-2 rounded bg-black/70 text-white font-extralight text-sm lg:text-lg relative my-2 before:inline-block before:mb-[2px] lg:before:mb-0 before:w-2 before:h-2 lg:before:w-3 lg:before:h-3 before:mr-3 lg:before:mr-4 before:bg-green-500 before:rounded-full before:border before:border-green-600 w-full lg:w-1/3"
             data-aos="fade-up"
           >
-            Szybkie wchłanianie: Lekka formuła kremu szybko się wchłania, nie
-            pozostawiając tłustej warstwy, co pozwala natychmiastowo wrócić do
-            codziennych czynności.
+            El ingrediente principal es la naturaleza. 
+            Creamos productos artesanales para el cuidado del cuerpo y del planeta.
           </li>
           <li
-            className="text-white font-extralight text-sm lg:text-lg relative my-2 before:inline-block before:mb-[2px] lg:before:mb-0 before:w-2 before:h-2 lg:before:w-3 lg:before:h-3 before:mr-3 lg:before:mr-4 before:bg-green-500 before:rounded-full before:border before:border-green-600 w-full lg:w-1/3"
+            className="px-2 rounded bg-black/70 text-white font-extralight text-sm lg:text-lg relative my-2 before:inline-block before:mb-[2px] lg:before:mb-0 before:w-2 before:h-2 lg:before:w-3 lg:before:h-3 before:mr-3 lg:before:mr-4 before:bg-green-500 before:rounded-full before:border before:border-green-600 w-full lg:w-1/3"
             data-aos="fade-up"
           >
-            Delikatny zapach: Krem Aflux ma delikatną, świeżą woń, która dodaje
-            przyjemności każdej aplikacji, pozostawiając dłonie odświeżone i
-            pachnące.
+            Conocé las propiedades de nuestros jabones, shampoos solidos y acondicionadores naturales.
+          </li>
+          <li
+            className="px-2 rounded bg-black/70 text-white font-extralight text-sm lg:text-lg relative my-2 before:inline-block before:mb-[2px] lg:before:mb-0 before:w-2 before:h-2 lg:before:w-3 lg:before:h-3 before:mr-3 lg:before:mr-4 before:bg-green-500 before:rounded-full before:border before:border-green-600 w-full lg:w-1/3"
+            data-aos="fade-up"
+          >
+            Sin químicos, sin sulfatos, sin petrolatos, zero waste y con respeto animal.
           </li>
         </ul>
       </div>

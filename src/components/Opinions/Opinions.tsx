@@ -13,40 +13,40 @@ export default () => {
   const Opinions = [
     {
       opinion_text:
-        "Krem Aflux to rewelacyjny produkt do pielęgnacji ciała. Skóra staje się wyraźnie wygładzona i miękka w dotyku. Lekka formuła kremu szybko się wchłania, a jego bogaty skład dba o intensywne nawilżenie. Polecam każdemu, kto szuka skutecznego i przyjemnego w użyciu kremu do ciała.",
-      opinion_author: "Daniel",
+        "Excelentes productos. Calidad y efectividad asegurada.",
+      opinion_author: "Francisco",
     },
     {
       opinion_text:
-        "Aflux to krem, który zrewolucjonizował moją pielęgnację ciała. Skóra jest po nim niesamowicie gładka i miękka. Bardzo polecam!",
-      opinion_author: "Magda",
+        "Me ayudaron a mejorar la apariencia de mi piel. Los recomiendo al 100%.",
+      opinion_author: "Liliana",
     },
     {
       opinion_text:
-        "Jestem zachwycona efektami kremu Aflux. Moja skóra nigdy wcześniej nie była tak dobrze nawilżona i wygładzona. To absolutny must-have w mojej łazience!",
-      opinion_author: "Agnieszka",
+        "Me encantan los productos de Idún. Son naturales y efectivos. Mi piel nunca se ha visto mejor.",
+      opinion_author: "Noelia",
     },
     {
       opinion_text:
-        "Krem Aflux to prawdziwa perełka wśród produktów do pielęgnacji ciała. Po jego użyciu skóra odzyskuje jędrność i elastyczność. Jestem pod wrażeniem!",
-      opinion_author: "Karolina",
+        "Realmente me sorprendió la calidad de los productos. Me llegó en perfecto estado y en el tiempo indicado. ¡Muy recomendable!",
+      opinion_author: "Facundo",
     },
     {
       opinion_text:
-        "Używam kremu Aflux od kilku tygodni i efekty są rewelacyjne. Moja skóra wygląda znacznie lepiej, jest bardziej nawilżona i wygładzona. To najlepszy krem, jaki kiedykolwiek miałam!",
-      opinion_author: "Aniela",
+        "Me gustaría destacar la atención al cliente. Me ayudaron con todas mis dudas y me guiaron en la elección de los productos.",
+      opinion_author: "Damián",
     },
     {
       opinion_text:
-        "Aflux to mój ulubiony krem do ciała. Jego lekka formuła sprawia, że szybko się wchłania, nie pozostawiając tłustej warstwy. Skóra jest po nim niesamowicie miękka i gładka. Naprawdę warto go wypróbować!",
-      opinion_author: "Małgorzata",
+        "Me encantan los jabones de Idún. Son suaves, huelen increíble y dejan mi piel hidratada.",
+      opinion_author: "Nahuel",
     },
   ];
 
   return (
     <div className="bg-green-50 py-24" id="opinions">
       <h1 className="text-black text-2xl lg:text-4xl font-regular mt-16 text-center">
-        - Opinie -
+        - Opiniones -
       </h1>
       <Swiper
         className="relative opinions-swiper"

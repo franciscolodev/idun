@@ -39,12 +39,11 @@ export default () => {
           alt="img"
         />
         <div className="absolute bottom-[5vh] lg:bottom-[10vw] left-[10vw] z-1">
-          <h1 className="text-white text-2xl lg:text-7xl mb-5 lg:w-[800px] leading-tight">
-            Wyjątkowe połączenie 10 składników
+          <h1 className="inline-block px-2 rounded bg-black/70 text-[#FFF] text-2xl lg:text-7xl mb-5 lg:w-[625px] leading-tight font-semibold">
+            Una combinación natural única
           </h1>
-          <p className="text-white text-sm lg:text-xl mb-5 w-4/5 lg:w-[600px] font-extralight">
-            Dzięki naszemu produktowi Twoja skóra zyska nowy blask, a
-            samopoczucie zmieni się nie do poznania.
+          <p className="px-2 rounded bg-black/70 text-white text-sm lg:text-xl mb-5 w-4/5 lg:w-[535px] font-extralight">
+            Ocupate del bienestar de tu piel con nuestros productos.
           </p>
         </div>
       </SwiperSlide>
@@ -55,12 +54,11 @@ export default () => {
           alt="img"
         />
         <div className="absolute bottom-[5vh] lg:bottom-[10vw] left-[10vw] z-1">
-          <h1 className="text-white text-2xl lg:text-7xl mb-5 lg:w-[800px] leading-tight">
-            Niesamowite efekty
+          <h1 className="inline-block px-2 rounded bg-black/70 text-[#b07441] text-2xl lg:text-7xl mb-5 lg:w-[730px] leading-tight font-semibold">
+            Efectos asombrosos
           </h1>
-          <p className="text-white text-sm lg:text-xl mb-5 w-4/5 lg:w-[600px] font-extralight">
-            Stosując nasze kosmetyki efekty zauważysz już po 4 dniach od
-            rozpoczęcia kuracji.
+          <p className="px-2 rounded bg-white/70 text-[#000] text-sm lg:text-xl mb-5 w-4/5 lg:w-[200px] font-extralight">
+            ¡Notá los cambios!
           </p>
         </div>
       </SwiperSlide>
@@ -71,11 +69,11 @@ export default () => {
           alt="img"
         />
         <div className="absolute bottom-[5vh] lg:bottom-[10vw] left-[10vw] z-1">
-          <h1 className="text-white text-2xl lg:text-7xl mb-5 lg:w-[800px] leading-tight">
-            Produkty dla każdego, niezależnie od wieku
+          <h1 className="inline-block px-2 rounded bg-black/70 text-[#5b6f38] text-2xl lg:text-7xl mb-5 lg:w-[640px] leading-tight font-semibold">
+            Productos para cada tipo de piel
           </h1>
-          <p className="text-white text-sm lg:text-xl mb-5 w-4/5 lg:w-[600px] font-extralight">
-            Produkty dopasowane dla każdego.
+          <p className="px-2 rounded bg-black/70 text-white text-sm lg:text-xl mb-5 w-4/5 lg:w-[350px] font-extralight">
+            Encontrá lo que tu cuerpo necesita. Productos con distintas propiedades
           </p>
         </div>
       </SwiperSlide>

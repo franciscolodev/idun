@@ -24,6 +24,7 @@ const photos: PhotoType[] = [
   { src: `${product_img06.src}`, width: 300, height: 500 },
   { src: `${product_img07.src}`, width: 800, height: 500 },
   { src: `${product_img08.src}`, width: 800, height: 500 },
+
 ];
 
 const Gallery: React.FC = () => {
@@ -42,6 +43,7 @@ const Gallery: React.FC = () => {
       </div>
     </div>
   );
+  
 };
 
 export default Gallery;

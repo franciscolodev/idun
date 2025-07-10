@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "@/images/aflux-logo.png";
+import logo from "@/images/idun-logo.png";
 import { HEADER_LINKS } from "@/constants/header-links";
 import Link from "next/link";
 
@@ -17,7 +17,7 @@ const Footer = () => {
             <ul className="flex flex-wrap m-4 text-center flex-col lg:flex-row items-start lg:items-center justify-between lg:last:me-0">
               {HEADER_LINKS.map((link) => (
                 <Link
-                  className="px-4 py-2 text-sm text-white hover:text-green-600"
+                  className="px-4 py-2 text-sm text-white hover:text-[#b07441]"
                   href={link.href}
                   key={link.key}
                 >
@@ -29,15 +29,15 @@ const Footer = () => {
         </div>
         <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between w-full">
           <p className="text-xs lg:text-sm ms-8 mt-2 lg:m-4 text-white">
-            Aflux © 2024. Wszystkie prawa zastrzeżone.
+            Idún © 2025. Derechos reservados.
           </p>
           <p className="text-xs lg:text-sm ms-8 mb-4 lg:m-4 text-white">
             Coded with ❤️ by{" "}
             <a
-              className="hover:text-orange-600"
-              href="https://goldipl.github.io/Marcin-Programuje/"
+              className="hover:text-red-700"
+              href="https://franciscolodev.com"
             >
-              goldipl
+              fran
             </a>
           </p>
         </div>

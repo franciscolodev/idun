@@ -1,8 +1,7 @@
 import React from "react";
 import product_img01 from "@/images/products/product01.jpg";
-import product_img02 from "@/images/products/product02.jpg";
-import product_img03 from "@/images/products/product03.jpg";
-import product_img04 from "@/images/products/product04.jpg";
+import product_img02 from "@/images/products/product02.png";
+import product_img03 from "@/images/products/product03.png";
 
 import "@/components/Products/products.scss";
 
@@ -12,41 +11,31 @@ const Products = () => {
       source: product_img01.src,
       width: 300,
       height: 341,
-      text: "Aflux® krem do rąk",
+      text: "Jabones artesanales Idun",
       alt_text: "produkt",
       text_description:
-        "Aflux, renomowana marka kosmetyków, prezentuje swoją najnowszą propozycję - krem do rąk o niezrównanej jakości i skuteczności. Ten wyjątkowy produkt został stworzony z myślą o pielęgnacji skóry dłoni, dbając jednocześnie o nawilżenie, odżywienie i ochronę. Formuła kremu została opracowana z użyciem najwyższej jakości składników, które doskonale pielęgnują i regenerują skórę. Bogate w substancje odżywcze i witaminy, krem głęboko nawilża skórę, przywracając jej elastyczność i miękkość. Dzięki zawartości naturalnych ekstraktów roślinnych, zapewnia on intensywną regenerację nawet najbardziej wysuszonej skóry.",
-      price: "49,99",
+        "Nuestros jabones artesanales están elaborados a partir de ingredientes naturales, libres de químicos agresivos, sulfatos, petrolatos y fragancias sintéticas. Cada fórmula está pensada para cuidar tu piel de manera consciente, respetuosa y efectiva, combinando propiedades terapéuticas con aromas naturales que acompañan tus rituales diarios. Utilizamos extractos vegetales, aceites esenciales y activos botánicos como arcillas, hierbas y flores, que aportan beneficios reales según cada necesidad: hidratación, limpieza profunda, alivio de irritaciones, regeneración o equilibrio.",
+      price: "20.000",
     },
     {
       source: product_img02.src,
       width: 300,
       height: 341,
-      text: "Aflux® krem do twarzy",
+      text: "Shampoo sólido artesanal",
       alt_text: "produkt",
       text_description:
-        "Odkryj tajemnicę piękna Twojej skóry dzięki Aflux® Kremowi do Twarzy - innowacyjnemu rozwiązaniu, które łączy w sobie potęgę naturalnych składników i zaawansowanej technologii kosmetycznej. Nasz krem to nie tylko produkt pielęgnacyjny, to codzienna dawka luksusu i blasku dla Twojej cery. Jego unikalna formuła opiera się na starannie dobranych składnikach pochodzenia roślinnego, bogatych w witaminy, minerały oraz przeciwutleniacze. Dzięki zawartości organicznych ekstraktów roślinnych, olejków eterycznych i substancji odżywczych, nasz krem nawilża, regeneruje oraz chroni skórę przed działaniem szkodliwych czynników zewnętrznych. Dzięki regularnemu stosowaniu zauważysz redukcję drobnych linii i zmarszczek, a Twoja cera odzyska blask i elastyczność. Bez względu na Twój typ cery - suchą, tłustą, mieszana czy wrażliwą - nasz krem doskonale się sprawdzi. Jest idealnym wyborem dla osób poszukujących naturalnego i skutecznego sposobu pielęgnacji skóry. Rozkoszuj się chwilą pielęgnacji i daj swojej skórze to, na co zasługuje - Aflux® Krem do Twarzy. Dołącz do tysięcy zadowolonych użytkowników i odkryj sekret zdrowej, pięknej skóry z Aflux®!",
-      price: "29,99",
+        "CABELLO NORMAL A GRASO: El romero estimula el crecimiento del cabello, fortalece las raíces y reduce la caída. El Laurel tiene propiedades antibacterianas y ayuda a controlar la caspa. La arcilla verde regula el exceso de sebo. Ideal para cabellos normales a grasos. También tenemos la opción para CABELLO SECO Y/O DAÑADO: El aceite de argán ayuda a reducir el frizz, la sequedad y el daño, además de actuar como protector térmico. La manteca de karité hidrata profundamente, fortalece y puede ayudar a calmar el cuero cabelludo irritado. Ideal para cabellos secos y/o dañados.",
+      price: "20.000",
     },
     {
       source: product_img03.src,
       width: 300,
       height: 341,
-      text: "Aflux® krem do stóp",
+      text: "Acondicionador natural",
       alt_text: "produkt",
       text_description:
-        "Odkryj doskonałe rozwiązanie dla zmęczonych, suchej i zgrubiałej skóry stóp - Aflux® Krem do Stóp. Nasz krem to nie tylko produkt pielęgnacyjny, to prawdziwa terapia dla Twoich stóp, które codziennie narażone są na intensywne obciążenia. Dzięki unikalnej formule opartej na naturalnych składnikach, w tym na olejach roślinnych, masłach i ekstraktach roślinnych, nasz krem zapewnia intensywne nawilżenie, odżywienie i regenerację skóry stóp. Jego lekka konsystencja szybko się wchłania, pozostawiając uczucie komfortu i gładkości. Z Aflux® Kremem do Stóp przywrócisz swoim stopom miękkość, elastyczność i zdrowy wygląd, czyniąc je gotowymi na kolejne wyzwania dnia codziennego. Daj swoim stopom zasłużoną pielęgnację, korzystając z bogactwa natury w połączeniu z zaawansowaną technologią kosmetyczną - dołącz do tych, którzy doceniają piękno i zdrowie stóp z Aflux®!",
-      price: "89,99",
-    },
-    {
-      source: product_img04.src,
-      width: 300,
-      height: 341,
-      text: "Aflux® krem pod oczy",
-      alt_text: "produkt",
-      text_description:
-        "Rozpocznij dzień z pięknymi, promiennymi oczami dzięki Aflux® Kremowi Pod Oczy - wyjątkowemu rozwiązaniu pielęgnacyjnemu, które rewitalizuje, nawilża i odmładza delikatną skórę wokół oczu. Nasz krem to nie tylko produkt kosmetyczny, to właściwa dawka pielęgnacji, która przywraca świeżość i blask Twojemu spojrzeniu. Dzięki zaawansowanej formule opartej na składnikach pochodzenia roślinnego, w tym na ekstraktach roślinnych, witaminach i peptydach, Aflux® Krem Pod Oczy redukuje widoczność cieni i worków pod oczami, wygładza drobne linie i zmarszczki, oraz eliminuje oznaki zmęczenia. Lekka konsystencja kremu delikatnie się wchłania, nie obciążając skóry, zapewniając uczucie komfortu i świeżości. Pozwól swoim oczom odzyskać blask i witalność, dbając o nie codziennie z Aflux® Kremem Pod Oczy - odkryj tajemnicę młodszego, bardziej promiennego spojrzenia już dziś!",
-      price: "104,99",
+        "Pensada para devolverle a tu cabello suavidad, brillo y elasticidad sin apelmazarlo ni saturarlo con químicos. Formulada con ingredientes vegetales y nutritivos, desenreda, hidrata y protege la fibra capilar desde la raíz hasta las puntas. No contiene siliconas, parabenos ni derivados del petróleo. En su lugar, usamos aceites naturales, extractos botánicos y acondicionadores biodegradables que respetan tu cuero cabelludo y el medio ambiente.",
+      price: "20.000",
     },
   ];
 
@@ -54,10 +43,10 @@ const Products = () => {
     <div className="flex bg-white w-full justify-center" id="products">
       <div className="flex flex-col container py-16 lg:py-32 justify-center items-center">
         <h1 className="text-black text-2xl lg:text-4xl font-regular mt-8 mb-2 text-center">
-          - Nasze produkty -
+          - Nuestros productos -
         </h1>
         <p className="text-black text-lg lg:text-xl font-light text-center">
-          Sprawdź już dziś!
+        ¡Empeza a cuidar tu piel!
         </p>
         <div className="products-wrapper flex flex-col flex-wrap gap-10 justify-center items-center">
           {ProductsItemsList.map((ProductsListItem) => (
@@ -82,11 +71,10 @@ const Products = () => {
                   {ProductsListItem.text_description}
                 </p>
                 <p className="text-black text-xl m-auto lg:ms-0">
-                  Cena:{" "}
+                  Precio:${" "}
                   <span className="text-black text-2xl font-bold">
                     {ProductsListItem.price}
                   </span>{" "}
-                  zł
                 </p>
               </div>
             </div>
